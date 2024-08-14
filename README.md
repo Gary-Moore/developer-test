@@ -20,7 +20,7 @@ The solution includes:
 - **Web API Project**: A basic Todo List API controller with Swagger/OpenAPI documentation.
 - **Services Project**: For housing any services you may require.
 - **Data Project**: Includes an in-memory database context and a `Todo` entity. You can seed initial data by uncommenting the relevant code.
-- **Tests Project**: For adding your unit tests.
+- **Tests Project**: For adding your unit tests. XUnit and FakeItEasy nuget packages have been included, but feel free to use alternative testing and mocking frameworks if desired.
 
 ## Submitting Your Test
 
@@ -60,7 +60,7 @@ Your responsibilities include designing and implementing the necessary API endpo
     - .NET Core 8 for the Web API.
     - Entity Framework Core (EF Core) for data access. An in-memory database is pre-configured in the project.
     - Follow RESTful API principles.
-    - Write unit tests for your controller and service classes.
+    - Write unit tests for your service classes.
     - Implement basic error handling (e.g., handling not found items, validation errors).
     - Use Dependency Injection (DI) to manage dependencies.
     - Adhere to SOLID principles.
